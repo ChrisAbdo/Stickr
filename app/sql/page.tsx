@@ -32,7 +32,7 @@ export default async function Home({
     <div>
       <CreateStickr />
 
-      {searchParams["sticker"] ? "yes" : "no"}
+      {searchParams["sticker"] ? "yes" : "no!"}
 
       {stickers.map((sticker: any) => (
         <>

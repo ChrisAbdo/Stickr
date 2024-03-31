@@ -34,12 +34,14 @@ export default function CreateStickr() {
         }
       },
     });
+    //   @ts-ignore
     console.log(result.sticker_image_background_removed.url);
     router.push(
       pathname +
         "?" +
         createQueryString(
           "sticker",
+          //  @ts-ignore
           result.sticker_image_background_removed.url
         )
     );
